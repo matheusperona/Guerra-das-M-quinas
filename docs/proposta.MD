@@ -1,286 +1,127 @@
 # Proposta Inicial do Jogo
 
-Este documento deve ser preenchido pelo grupo na Semana 1 do projeto.
-
-A proposta deve apresentar uma ideia simples, clara e viável para ser desenvolvida com Python e Pygame dentro do prazo disponível.
-
 ## 1. Nome provisório do jogo
 
-Escreva aqui o nome provisório do jogo.
-
-Exemplo:
-
-> Corrida dos Obstáculos
+> Guerra das máquinas
 
 ## 2. Integrantes do grupo
 
-Liste os integrantes do grupo.
-
-- Nome 1:
-- Nome 2:
-- Nome 3:
-- Nome 4:
+* Nome 1: Davi Alves
+* Nome 2: Manuela Terto
+* Nome 3: Matheus Persona
+* Nome 4: Vinícius Lima
 
 ## 3. Tipo de jogo
 
-Indique o tipo de jogo que será desenvolvido.
-
-Exemplos:
-
-- jogo de desviar de obstáculos;
-- jogo de coleta de itens;
-- labirinto simples;
-- jogo de perguntas e respostas;
-- jogo de memória;
-- Pong;
-- Snake;
-- Breakout;
-- nave desviando de meteoros;
-- corrida simples com obstáculos;
-- jogo de clique rápido;
-- jogo de sobrevivência simples.
-
 Tipo escolhido pelo grupo:
 
-> Escreva aqui.
+> Jogo estilo Space Invaders.
 
 ## 4. Descrição geral do jogo
 
-Explique, em poucas linhas, como o jogo funcionará.
-
-Procure responder:
-
-- O que aparece na tela?
-- O que o jogador controla?
-- O que o jogador precisa fazer?
-- Quais desafios aparecem durante a partida?
-
 Descrição:
 
-> Escreva aqui.
+> O jogo se passa em um futuro onde humanos e máquinas estão em guerra. O jogador controla uma nave de combate e deve enfrentar ondas de inimigos para avançar pelas fases. O jogo possui três fases: subsolo, superfície da Terra e espaço. Em cada fase o jogador utiliza uma nave diferente e enfrenta desafios cada vez mais difíceis até chegar ao chefe final.
 
 ## 5. Objetivo do jogador
 
-Explique qual é o objetivo principal do jogador.
-
-Exemplos:
-
-- coletar o maior número possível de itens;
-- sobreviver pelo maior tempo possível;
-- chegar até o final do labirinto;
-- acertar alvos;
-- responder perguntas corretamente;
-- evitar obstáculos;
-- quebrar todos os blocos.
-
 Objetivo:
 
-> Escreva aqui.
+> Derrotar os inimigos de todas as fases, sobreviver aos ataques e vencer o chefe final.
 
 ## 6. Regras principais
 
-Liste as principais regras do jogo.
-
-Exemplo:
-
-- O jogador começa com 3 vidas.
-- Cada moeda coletada vale 10 pontos.
-- Cada colisão com obstáculo remove 1 vida.
-- A partida termina quando as vidas chegam a zero.
-- O jogador vence se alcançar 100 pontos.
-
 Regras do grupo:
 
-- Regra 1:
-- Regra 2:
-- Regra 3:
-- Regra 4:
-- Regra 5:
+* O jogador começa com uma quantidade limitada de vida.
+* Os inimigos atacam continuamente o jogador.
+* Cada inimigo derrotado gera pontos.
+* Ao concluir uma fase, o jogador avança para a próxima.
+* O jogo termina quando a vida do jogador chega a zero ou quando o chefe final é derrotado.
 
 ## 7. Condição de vitória
 
-Explique como o jogador vence ou conclui o jogo.
-
-Exemplos:
-
-- atingir determinada pontuação;
-- chegar ao final da fase;
-- sobreviver até o tempo acabar;
-- responder uma quantidade mínima de perguntas;
-- quebrar todos os blocos.
-
 Condição de vitória:
 
-> Escreva aqui.
+> Derrotar o chefe final na terceira fase e concluir o jogo.
 
 ## 8. Condição de derrota ou encerramento
 
-Explique como o jogador perde ou quando a partida termina.
-
-Exemplos:
-
-- perder todas as vidas;
-- acabar o tempo;
-- colidir com determinado obstáculo;
-- errar muitas perguntas;
-- deixar a bola cair, no caso de Breakout ou Pong.
-
 Condição de derrota ou encerramento:
 
-> Escreva aqui.
+> O jogador perde quando sua vida chega a zero.
 
 ## 9. Elementos previstos no jogo
 
-Descreva os principais elementos que farão parte do jogo.
-
-## Jogador ou elemento principal
-
-Exemplo:
-
-> Um personagem controlado pelas setas do teclado.
+### Jogador ou elemento principal
 
 Descrição:
 
-> Escreva aqui.
+> Uma nave controlada pelo jogador. Cada fase possui uma nave diferente com características próprias.
 
-## Obstáculos, inimigos ou desafios
-
-Exemplo:
-
-> Obstáculos aparecem em posições aleatórias e devem ser evitados.
+### Obstáculos, inimigos ou desafios
 
 Descrição:
 
-> Escreva aqui.
+> Máquinas inimigas que se movimentam e atacam o jogador. A dificuldade aumenta a cada fase.
 
-## Itens, alvos ou objetos de interação
-
-Exemplo:
-
-> Moedas aparecem na tela e aumentam a pontuação quando coletadas.
+### Itens, alvos ou objetos de interação
 
 Descrição:
 
-> Escreva aqui.
+> Tiros disparados pelo jogador. O chefe final aparece na última fase.
 
-## Pontuação, vidas, tempo ou progresso
-
-Exemplo:
-
-> O jogador começa com 3 vidas e ganha 10 pontos por item coletado.
+### Pontuação, vidas, tempo ou progresso
 
 Descrição:
 
-> Escreva aqui.
+> O jogador possui uma barra ou quantidade de vida, ganha pontos ao derrotar inimigos e progride ao concluir cada fase.
 
 ## 10. Controles previstos
 
-Informe os comandos que serão utilizados pelo jogador.
-
-Exemplo:
-
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
-
 Controles do grupo:
 
-- Tecla/comando:
-- Tecla/comando:
-- Tecla/comando:
+* Seta para esquerda: mover a nave para a esquerda.
+* Seta para direita: mover a nave para a direita.
+* Barra de espaço: atirar.
 
 ## 11. Organização inicial do código
 
-Explique como o grupo pretende organizar o código.
-
-Exemplo:
-
-- `main.py`: inicia o jogo;
-- `src/jogo.py`: contém o loop principal;
-- `src/config.py`: guarda configurações como tamanho da tela e cores;
-- `src/funcoes.py`: contém funções auxiliares;
-- `src/dados.py`: contém funções de leitura e escrita de arquivos.
-
 Organização planejada:
 
-> Escreva aqui.
-
+* `main.py`: inicialização do jogo.
+* `player.py`: controle da nave do jogador.
+* `enemy.py`: controle dos inimigos.
+* `boss.py`: controle do chefe final.
+* `fase.py`: gerenciamento das fases.
+* `dados.py`: armazenamento de pontuação e informações do jogo.
 
 ## 12. Recursos externos previstos
 
-Informe se o grupo pretende utilizar imagens, sons, fontes, tutoriais ou códigos externos.
-
-Exemplo:
-
-- imagens obtidas de banco gratuito;
-- sons gratuitos;
-- tutorial usado apenas como referência;
-- fonte personalizada.
-
 Recursos previstos:
 
-> Escreva aqui.
-
-Caso não pretenda utilizar recursos externos, escreva:
-
-> Não pretendemos utilizar recursos externos.
+* Imagens gratuitas para naves e inimigos.
+* Efeitos sonoros gratuitos.
+* Tutoriais e documentação do Pygame como referência.
 
 ## 13. Principais dificuldades esperadas
 
-Liste as dificuldades que o grupo acredita que poderá enfrentar.
-
-Exemplos:
-
-- movimentação do jogador;
-- colisão entre objetos;
-- controle de tempo;
-- criação do ranking;
-- organização do código;
-- uso do GitHub;
-- testes;
-- exibição de textos na tela.
-
 Dificuldades previstas:
 
-- Dificuldade 1:
-- Dificuldade 2:
-- Dificuldade 3:
+* Programação da movimentação e dos ataques dos inimigos.
+* Ajuste da dificuldade entre as fases.
+* Desenvolvimento da batalha contra o chefe final.
 
 ## 14. Escopo mínimo para a entrega final
 
-Descreva qual será a versão mínima aceitável do jogo.
-
-Esta seção é importante para evitar que o grupo escolha uma ideia grande demais.
-
-Exemplo:
-
-> A versão mínima do jogo terá um personagem controlado pelo teclado, obstáculos aparecendo na tela, sistema de vidas, sistema de pontuação e tela de fim de jogo.
-
 Escopo mínimo:
 
-> Escreva aqui.
+> Um jogo funcional com três fases, diferentes naves controláveis, sistema de combate, pontuação, transição entre fases e um chefe final.
 
 ## 15. Possíveis melhorias, caso haja tempo
 
-Liste funcionalidades extras que o grupo poderá implementar se conseguir concluir o escopo mínimo.
-
-Exemplos:
-
-- tela inicial;
-- sons;
-- fases;
-- aumento de dificuldade;
-- ranking;
-- animações;
-- novos tipos de obstáculos;
-- diferentes personagens;
-- menu de pausa.
-
 Melhorias possíveis:
 
-- Melhoria 1:
-- Melhoria 2:
-- Melhoria 3:
+* Adição de efeitos sonoros e música.
+* Menu inicial e tela de pausa.
+* Sistema de ranking com melhores pontuações.
