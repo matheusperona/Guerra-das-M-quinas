@@ -22,24 +22,24 @@ docs/: documentação do projeto, incluindo proposta inicial.
 
 Descrição do jogo
 
-O jogo é inspirado em Space Invaders. Ele se passa durante uma guerra entre humanos e máquinas, em que o jogador controla uma nave para enfrentar os ataques inimigos e destruir obstáculos pelo mapa.
+O jogo é inspirado em Space Invaders, com uma lore própria sobre uma guerra entre humanos e máquinas. O jogador controla uma nave para enfrentar sentinelas mecânicas que descem pela tela, atirando para destruí-las antes que colidam com a nave (e, a partir do nível 2, antes que os próprios inimigos atirem de volta).
 
-A aventura é dividida em três níveis, cada um com uma ambientação e dificuldade diferente. O primeiro nível acontece no subsolo, onde as máquinas iniciam o ataque e a dificuldade é menor. O segundo nível ocorre em terra firme, com desafios mais difíceis. O terceiro nível se passa no espaço, onde fica a base das máquinas e onde a dificuldade atinge nível máximo.
+A aventura é dividida em três níveis, cada um com uma ambientação, lore e dificuldade diferente. O primeiro nível acontece no subsolo, onde a rebelião das máquinas começou e a dificuldade é menor. O segundo nível ocorre em terra firme, nas cidades tomadas pelas sentinelas. O terceiro nível se passa no espaço, na base orbital onde fica o Núcleo que comanda as máquinas — aqui a dificuldade atinge o nível máximo. Antes de cada nível, uma tela de transição conta um pouco da história daquele trecho do jogo.
 
 Objetivo do jogador
 
-O objetivo do jogador é controlar a nave, destruir os obstáculos e inimigos do mapa, evitar ser destruído e avançar pelos três níveis do jogo: subsolo, terra firme e espaço.
+O objetivo do jogador é controlar a nave, destruir os inimigos que aparecem, evitar ser destruído e avançar pelos três níveis do jogo: subsolo, terra firme e espaço.
 
-Para vencer, o jogador precisa sobreviver aos ataques das máquinas e completar todos os níveis.
+Para vencer, o jogador precisa sobreviver aos ataques das máquinas e completar todos os níveis sem perder as 3 vidas.
 
 Regras do jogo
 
 O jogador controla uma nave que pode se movimentar e atirar.
-Os inimigos e obstáculos aparecem no mapa e devem ser destruídos.
-Cada obstáculo ou inimigo destruído aumenta a pontuação do jogador.
-O jogador deve evitar colisões e ataques das máquinas.
-Se a nave do jogador for destruída, a partida termina.
-Ao completar um nível, o jogador avança para o próximo cenário.
+Os inimigos aparecem aleatoriamente no topo da tela e descem em direção ao jogador.
+Cada inimigo destruído aumenta a pontuação do jogador.
+O jogador começa com 3 vidas; cada colisão com inimigo ou tiro inimigo tira 1 vida.
+Se as vidas chegarem a zero, a partida termina (game over).
+Ao atingir a pontuação necessária, o jogador avança para o próximo nível.
 A dificuldade aumenta a cada nível, seguindo a ordem: subsolo, terra firme e espaço.
 
 Controles
@@ -62,10 +62,10 @@ Como executar os testes
 python -m pytest
 Checklist mínimo para entrega
 
-Preencher este README com nome final, descrição real, regras e controles do jogo.
-Atualizar docs/proposta.MD com a proposta do grupo.
-Garantir que o jogo executa com python main.py.
-Garantir que os testes passam com pytest.
+Preencher este README com nome final, descrição real, regras e controles do jogo. ✅ feito
+Atualizar docs/proposta.md com a proposta do grupo. ✅ feito
+Garantir que o jogo executa com python main.py. (testar antes de entregar)
+Garantir que os testes passam com pytest. ⚠️ ainda não há testes — confirmar com o professor se isso é exigido na entrega de hoje.
 
 Observações para os alunos
 
